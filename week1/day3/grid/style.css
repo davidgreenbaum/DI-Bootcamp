@@ -1,0 +1,45 @@
+*{
+    background-color: gray;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+    grid-template-rows: 200px 200px 200px 200px;
+    gap: 20px;
+    width: 80%;
+    grid-template-areas: 
+    "a a a a"
+    "aside article article article"
+    "footer footer footer footer"
+}
+
+
+
+header{
+    grid-area: a;
+    background-color: pink;
+    height: 50px;
+}
+
+article{
+    grid-area: article;
+    background-color: aqua;
+    /* height: 150px; */
+
+}
+
+article h1{
+    background-color: aqua;
+}
+
+aside{
+    grid-area: aside;
+    background-color: aqua;
+    /* height: 150px; */
+}
+
+footer{
+    grid-area: footer;
+    background-color: aqua;
+}
