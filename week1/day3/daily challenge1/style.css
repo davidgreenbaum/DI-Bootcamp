@@ -1,0 +1,16 @@
+/* * {
+    background-color: gray;
+} */
+.wrapper-container {
+    background-color: coral;
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    height: max-content;
+}
+
+/* .box {
+    background-color: yellow;
+    border: solid 1px;
+
+    
+} */

@@ -1,0 +1,80 @@
+/* Reset default margin and padding */
+/* body, h1, p {
+    margin: 0;
+    padding: 0;
+} */
+
+/* Header styles */
+
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    z-index: 2;
+}
+
+/* .header-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+} */
+
+/* .header-content p {
+    font-size: 1rem;
+} */
+
+/* Vertical nav styles */
+.vertical-nav {
+    position: sticky;
+    top: 0;
+    left: 20px;
+    padding: 5px;
+    color: white;
+    z-index: 3;
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0px; /*adjust margin to push it down */
+}
+
+.vertical-nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    /* margin-top: 100px; */
+    margin-bottom: 10px;
+}
+
+/* Main content styles */
+.main-content {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(garage2.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+
+blockquote {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    color: white;
+    width: 40%;
+}
+

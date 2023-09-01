@@ -1,0 +1,10 @@
+.jumbotron {
+    position: relative;
+    background-image: url(cow.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    padding: 100px;
+    color: aliceblue;
+}
