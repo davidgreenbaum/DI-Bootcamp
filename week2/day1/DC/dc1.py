@@ -27,18 +27,17 @@ elif character_count > 10:
     print("code too long!")
 else:
     print("perfect code")
-
-first = string [0]
-last = string [9]
-print(f"{first} & {last}")
-print(f"{string [0]}")
-print(f"{string [1]}")
-print(f"{string [2]}")
-print(f"{string [3]}")
-print(f"{string [4]}")
-print(f"{string [5]}")
-print(f"{string [6]}")
-print(f"{string [7]}")
-print(f"{string [8]}")
-print(f"{string [9]}")
+    first = string [0]
+    last = string [9]
+    print(f"{first} & {last}")
+    print(f"{string [0]}")
+    print(f"{string [1]}")
+    print(f"{string [2]}")
+    print(f"{string [3]}")
+    print(f"{string [4]}")
+    print(f"{string [5]}")
+    print(f"{string [6]}")
+    print(f"{string [7]}")
+    print(f"{string [8]}")
+    print(f"{string [9]}")
 
