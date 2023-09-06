@@ -10,8 +10,15 @@
 #     letter_index_dict[letter].append(index)
     
     
-start_num = int(input("give me low number:"))
-end_num = int(input("give me a high number"))
+# start_num = int(input("give me low number:"))
+# end_num = int(input("give me a high number"))
 
-for numbers in range(start_num, end_num + 1):
+# for numbers in range(start_num, end_num + 1):
     
+# i think i was doing the wrong challenge here
+
+
+
+
+# DAILY CHALLENGE 2
+
