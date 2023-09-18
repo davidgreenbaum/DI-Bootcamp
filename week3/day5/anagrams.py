@@ -44,6 +44,6 @@ def main():
         else:
             print("Invalid choice. Please choose 1 or 2.")
 
-# this is a built in variable that lets it know what it the main script... so that when you import a module it know which is the main program and which is an imported module 
+# this is a thing that lets it know what it the main script... so that when you import a module it know which is the main program and which is an imported module 
 if __name__ == "__main__": 
     main()
